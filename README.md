@@ -79,7 +79,6 @@ physical performance, and promoting overall
 ## Community & Support
 
 - **Twitter** – Follow us on [Twitter](https://x.com/Pulse) for announcements, tips, and community news.
-- **Telegram** – Join our [Telegram](https://t.me/+W7bEm4RlLIIwODIx) to be a part of the community.
 - **GitHub** – Explore our open-source repositories on [GitHub](https://github.com/PulseHealthAI).  
 
 If you have any questions, feature requests, or just want to say hello, feel free to reach out! We’re building Pulse together with the community, one block at a time.
