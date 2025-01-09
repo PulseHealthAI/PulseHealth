@@ -3,7 +3,8 @@
 > **Your intelligent AI health assistant.**  
 > Easily meet your health goals, interact with a community of like-minded individuals, and become the best version of yourself.
 >
-> ![PULSE_Twitter_Header_1](https://github.com/user-attachments/assets/2ed9df5a-13c9-489d-81f3-36c6b4bce835)
+> ![PULSE_Twitter_Header_1](https://github.com/user-attachments/assets/821177c5-4d19-41ef-8e46-ab75fd366def)
+
 
 
 ---
