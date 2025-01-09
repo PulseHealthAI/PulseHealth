@@ -7,15 +7,15 @@
 
 ## Table of Contents
 
-1. [Overview]([#overview])  
-2. [Key Features]([#key-features])  
-   - [Health & Fitness Tracking](#health--fitness-tracking[https://github.com/PulseHealthAI/PulseHealth/edit/main/README.md?plain=1#L43])  
-   - [Personalized Coaching & Guidance]([#personalized-coaching--guidance])  
-   - [AI-Powered Insights]([#ai-powered-insights])  
-   - [Data Integration & Syncing]([#data-integration--syncing])
-   - [Motivation & Community]([#motivation--community])
-   - [Smart Memory & Adaptation]([#smart-memory--adaptation])
-3. [Community & Support]([#community--support])  
+1. [Overview](#overview)  
+2. [Key Features](#key-features)  
+   - [Health & Fitness Tracking](#health--fitness-tracking)  
+   - [Personalized Coaching & Guidance](#personalized-coaching--guidance)  
+   - [AI-Powered Insights](#ai-powered-insights)  
+   - [Data Integration & Syncing](#data-integration--syncing)
+   - [Motivation & Community](#motivation--community)
+   - [Smart Memory & Adaptation](#smart-memory--adaptation)
+3. [Community & Support](#community--support)  
 
 ---
 
