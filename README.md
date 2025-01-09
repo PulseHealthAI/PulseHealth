@@ -2,6 +2,8 @@
 
 > **Your intelligent AI health assistant.**  
 > Easily meet your health goals, interact with a community of like-minded individuals, and become the best version of yourself.
+>
+> ![PULSE token icon](https://github.com/user-attachments/assets/7a61d086-a8ec-4ffe-9e79-dc2b8fd40651)
 
 ---
 
