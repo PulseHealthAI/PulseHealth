@@ -1,58 +1,61 @@
 import { PublicKey } from "@solana/web3.js";
+import { PublicKey } from "@solana/web3.js";
 import { Action } from "../types/action";
 import { PulseHealthAI } from "../agent";
 import { z } from "zod";
-import { get_health } from "../tools";
+import { get_health_metric } from "../tools";
 
-const health: Action = {
-  name: "health_ACTION",
+const balanceAction: Action = {
+  name: "HEALTH_METRIC_ACTION",
   similes: [
-    "check health",
-    "get health data",
-    "view health data",
-    "show health data",
-    "check health data",
+    "check health metric",
+    "get wellness data",
+    "view health insights",
+    "show fitness score",
+    "check health balance",
   ],
-  description: `Get the health data from your Pulse Health agent
+  description: `Retrieve a user's health metric data or wellness score.
+  If you want to get the default health score, you don't need to provide a specific metric.
+  If no metric is provided, the score will be based on overall health balance.`,
   examples: [
     [
       {
         input: {},
         output: {
           status: "success",
-          balance: "100",
-          token: "SOL",
+          balance: "85",
+          metric: "Overall Health",
         },
-        explanation: "Get SOL balance of the wallet",
+        explanation: "Get overall health balance of the user",
       },
     ],
     [
       {
         input: {
-          tokenAddress: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          metric: "Heart Rate",
         },
         output: {
           status: "success",
-          balance: "1000",
-          token: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          balance: "72 bpm",
+          metric: "Heart Rate",
         },
-        explanation: "Get health data",
+        explanation: "Get user's heart rate metric",
       },
     ],
   ],
   schema: z.object({
-    tokenAddress: z.string().optional(),
+    metric: z.string().optional(),
   }),
   handler: async (agent: PulseHealthAI, input: Record<string, any>) => {
-    const balance = await get_balance(
+    const balance = await get_health_metric(
       agent,
-      input.tokenAddress && new PublicKey(input.tokenAddress),
+      input.metric
     );
 
     return {
       status: "success",
       balance: balance,
-      token: input.tokenAddress || "SOL",
+      metric: input.metric || "Overall Health",
     };
   },
 };
