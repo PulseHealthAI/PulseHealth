@@ -56,7 +56,3 @@ To ensure secure usage of PulseHealthAI:
 ## Bug Bounty Program
 
 Currently, PulseHealthAI does not have a formal bug bounty program. However, responsible disclosure of security vulnerabilities is highly appreciated and encouraged.
-
-## License
-
-This security policy is part of the PulseHealthAI project licensed under the [Apache 2.0 License](LICENSE).
